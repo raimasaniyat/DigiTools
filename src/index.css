@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.nav-logo img{
+    width: 120px;
+    height: 50px;
+}
+.menu li:hover{
+    color: blueviolet;
+}
