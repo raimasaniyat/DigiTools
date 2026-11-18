@@ -12,24 +12,24 @@ const NavBar = () => {
                 <div className="navbar-center hidden md:flex">
                     <ul className="menu menu-horizontal gap-10 px-1 text-lg">
                     <li>
-                        <a>Products</a>
+                        <a className='hover:bg-transparent focus:bg-transparent'>Products</a>
                     </li>
                     <li>
-                        <a>Features</a>
+                        <a className='hover:bg-transparent focus:bg-transparent'>Features</a>
                     </li>
                     <li>
-                        <a>Pricing</a>
+                        <a className='hover:bg-transparent focus:bg-transparent'>Pricing</a>
                     </li>
                     <li>
-                        <a>Testimonials</a>
+                        <a className='hover:bg-transparent focus:bg-transparent'>Testimonials</a>
                     </li>
                     <li>
-                        <a>FAQ</a>
+                        <a className='hover:bg-transparent focus:bg-transparent'>FAQ</a>
                     </li>
                     </ul>
                 </div>
                 <div className="navbar-end gap-5">
-                    <a href='#'>Login</a>
+                    <a href='#' className='text-purple-700'>Login</a>
                     <a className="btn bg-purple-700 rounded-full text-white">Get Started</a>
                 </div>
             </div>
