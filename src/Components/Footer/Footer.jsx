@@ -19,7 +19,7 @@ const Footer = () => {
 
           
           <div className="md:col-span-2">
-            <h3 className="text-white font-semibold mb-6 text-lg">Product</h3>
+            <h5 className="text-white font-semibold mb-6 text-lg">Product</h5>
             <ul className="space-y-4 text-zinc-400">
               <li>
                 <a href="#" className="hover:text-white transition">
@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
 
           <div className="md:col-span-2">
-            <h3 className="text-white font-semibold mb-6 text-lg">Company</h3>
+            <h5 className="text-white font-semibold mb-6 text-lg">Company</h5>
             <ul className="space-y-4 text-zinc-400">
               <li>
                 <a href="#" className="hover:text-white transition">
@@ -71,7 +71,7 @@ const Footer = () => {
           </div>
 
           <div className="md:col-span-2">
-            <h3 className="text-white font-semibold mb-6 text-lg">Resources</h3>
+            <h5 className="text-white font-semibold mb-6 text-lg">Resources</h5>
             <ul className="space-y-4 text-zinc-400">
               <li>
                 <a href="#" className="hover:text-white transition">
@@ -96,7 +96,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="md:col-span-2">
-            <h3 className="text-white font-semibold mb-6 text-lg">Social Links</h3>
+            <h5 className="text-white font-semibold mb-6 text-lg">Social Links</h5>
             <ul className="space-y-4 text-zinc-400">
               <li>
                 <a href="#" className="hover:text-white transition">
@@ -122,7 +122,7 @@ const Footer = () => {
           <div><p>© {new Date().getFullYear()}Digitools. All rights reserved.</p></div>
 
           <div className="flex gap-6">
-            <a href="#" className="hover:text-red-400 transition">
+            <a href="#" className="hover:text-purple-400 transition">
                 Privacy Policy | Terms of Service | Cookies
             </a>
           </div>

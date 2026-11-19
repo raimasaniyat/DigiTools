@@ -26,11 +26,9 @@ const Banner = () => {
           <div className="flex flex-wrap gap-4 pt-4">
             <button className="bg-linear-to-r from-purple-800 to-purple-500 px-8 py-4 rounded-full font-semibold text-lg shadow-xl shadow-purple-500/30 flex items-center gap-3 group text-white border border-transparent">
               Explore Products
-              <span className="group-hover:translate-x-1 transition"></span>
             </button>
             <button className="bg-transparent px-8 py-4 rounded-full font-semibold text-lg shadow-xl shadow-purple-200/30 flex items-center gap-3 group text-purple-700 border border-purple-700">
               Watch Demo
-              <span className="group-hover:translate-x-1 transition"></span>
             </button>
           </div>
 

@@ -3,7 +3,7 @@ import logo from '../../assets/DigiTools.png'
 const NavBar = () => {
     return (
         <div>
-            <div className="navbar">
+            <div className="navbar max-w-7xl mx-auto px-6">
                 <div className="navbar-start">
                     <div className="nav-logo flex items-center gap-1 font-bold text-xl">
                         <img className="w-10" src={logo} />
