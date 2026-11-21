@@ -11,3 +11,7 @@
 .menu li:hover{
     color: blueviolet;
 }
+.steps-parent .steps-wrap{
+    width: 380px;
+    height: 380px;
+}
